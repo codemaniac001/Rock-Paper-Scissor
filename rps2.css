@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(151, 151, 239);
+}
+.container{
+
+
+    display: flex;
+     
+    justify-content: center;
+    align-items: center;
+   
+    flex-direction: column;
+    height: 100vh; 
+  
+}
+.options{
+    display: flex;
+    flex-direction: row;
+}
+.result,.round{
+    font-weight: bold;
+    font-size: 24px;
+}
